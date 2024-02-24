@@ -3,7 +3,7 @@
 import { handleError } from "../../lib/utils";
 import {CreateUserParams} from "../../types/index";
 import { revalidatePath } from "next/cache";
-import {connectToDatabase} from '../actions/user.actions'
+import {connectToDatabase} from '../database/index'
 import User from "../models/user.models";
 import Order from "../models/order.model";
 import Event from "../models/evetly.medel";
