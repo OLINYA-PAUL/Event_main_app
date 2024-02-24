@@ -10,7 +10,7 @@ import Event from "../models/evetly.medel";
 
 export const createUser = async (user: CreateUserParams) => {
   try {
-    await connectToDataBase();
+    await connectToDatabase();
 
     const newUser = await User.create(user);
 
