@@ -1,9 +1,9 @@
 "use server";
 
 import { handleError } from "../../lib/utils";
-import CreateUserParams from "../../types/index";
+import {CreateUserParams} from "../../types/index";
 import { revalidatePath } from "next/cache";
-import connectToDataBase from "../database/index";
+import {connectToDataBase} from "../database/index";
 import User from "../models/user.models";
 import Order from "..//models/order.model";
 import Event from "../models/evetly.medel";
