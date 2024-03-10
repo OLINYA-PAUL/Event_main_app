@@ -1,7 +1,7 @@
 "use server";
 
 import { handleError } from "../../lib/utils";
-import {CreateUserParams} from "../../types/index";
+import {CreateUserParams,UpdateUserParams } from "../../types/index";
 import { revalidatePath } from "next/cache";
 import {connectToDatabase} from '../database/index'
 import User from "../models/user.models";
