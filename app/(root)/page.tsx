@@ -30,7 +30,7 @@ export default async function Home() {
             alt="hero"
             width={1000}
             height={1000}
-            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh] flex-1"
+            className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh] flex-1 bg-[#eee] rounded-lg"
           />
         </div>
       </section>
